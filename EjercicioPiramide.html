@@ -1,0 +1,69 @@
+<html lang="es"><!--  Ejercicios de Ejemplo --><head>
+    <title>Ejercicios Javascript</title>
+    <meta charset="UTF-8">
+    <style>
+      body {
+          background: rgba(0, 0, 128, 0.1) /* Azul al 10% */
+      }
+    </style>
+  </head>
+  <body>
+  
+  
+  <script>
+    // seccion de codigo javascript 
+    'use strict'
+    var var1,var2;
+    var1=prompt('Ingrese el primer valor','');
+    var2=prompt('Ingrese el segundo valor','');
+    var1=parseInt(var1);
+    var2=parseInt(var2);
+    var contador=0;
+    for(var f=1;f<=var2;f++){
+        document.write(var1+' ')
+        contador++
+        if(contador==8){
+            contador=0
+            document.write('<br>')
+        }
+    }
+    document.write('<br>')
+    var espacios=20
+    var columnas=1;
+    var contador1=0;
+    for(var f=1;f<=23;f++){
+        document.write('&nbsp')
+        if(f==23){
+            for(var x=0;x<columnas;x++){
+                document.write('o'+ ' ')
+            }
+
+        
+    }
+}
+    columnas=3 
+    document.write('<br>')
+    for(var f=1;f<=espacios;f++){
+        document.write('&nbsp')
+        if(f==20){
+            for(var x=0;x<columnas;x++){
+                document.write('o'+ ' ')
+            }
+
+        }
+    }
+    columnas=5;
+    document.write('<br>')
+    for(var f=1;f<=17;f++){
+        document.write('&nbsp')
+        if(f==17){
+            for(var x=0;x<columnas;x++){
+                document.write('o'+ ' ')
+            }
+
+        }
+    }
+  </script>
+  
+  
+  </body><!--  fuente http://www.tutorialesprogramacionya.com/ --></html>
