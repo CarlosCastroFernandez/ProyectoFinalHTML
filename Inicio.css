@@ -18,9 +18,19 @@ h1{
 }
 
 ul{
+    
     display:flex;
     justify-content: space-evenly;
     color:white;
+}
+#clik:hover{
+    cursor:pointer;
+}
+a{
+    text-decoration: none;
+    color:white;
+    font-size: xx-large;
+    font-family:'Franklin Gothic Medium';
 }
 
 
