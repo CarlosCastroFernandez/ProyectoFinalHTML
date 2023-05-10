@@ -8,24 +8,41 @@
 body{
     height:100vh;
     width:100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   
-    
-    
+    background-color:yellow;
 }
+section{
+    margin-top:20px;
+    display:flex;
+    justify-content: center;
+}
+h1{
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium';
+    color:rgb(255, 0, 0);
+}
+
+
 #todo{
+    margin-top:50px;
+    display:flex;
     border-style:groove;
     border-color: red;
     border-width: 10px;
+    width:22vw;
     display:flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+   
+   
     
 }
+#general{
+    display:flex;
+    justify-content: center;
+    width:100vw;
+}
 #todo div{
+    
     display:flex;
     height:15vh;
     width: 20vw;
